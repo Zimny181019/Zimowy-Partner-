@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zimowy Partner — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#0d1117;
+    --card:#161b22;
+    --border:#30363d;
+    --text:#e6edf3;
+    --muted:#8b949e;
+    --accent:#58a6ff;
+    --quote-bg:#1c2129;
+    --quote-border:#388bfd;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height:1.6;
+    padding:32px 16px 80px 16px;
+  }
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:40px 44px;
+    max-width:820px;
+    margin:0 auto;
+  }
+  nav{
+    display:flex;
+    justify-content:center;
+    gap:32px;
+    margin-bottom:36px;
+    flex-wrap:wrap;
+  }
+  nav a{
+    color:var(--accent);
+    text-decoration:none;
+    font-weight:600;
+    font-size:1.05rem;
+  }
+  nav a.active{
+    text-decoration:underline;
+  }
+  nav a:hover{ text-decoration:underline; }
+
+  h1.page-title{
+    text-align:center;
+    font-size:2rem;
+    margin:8px 0 28px 0;
+    color:var(--accent);
+  }
+  .meta{
+    color:var(--muted);
+    margin:0 0 6px 0;
+  }
+  .meta b{ color:var(--text); }
+
+  blockquote{
+    background:var(--quote-bg);
+    border-left:4px solid var(--quote-border);
+    margin:20px 0 32px 0;
+    padding:16px 20px;
+    border-radius:0 8px 8px 0;
+    color:var(--text);
+  }
+
+  h2{
+    color:var(--accent);
+    font-size:1.35rem;
+    margin:36px 0 12px 0;
+    border-bottom:1px solid var(--border);
+    padding-bottom:8px;
+  }
+  ul{ padding-left:22px; margin:8px 0; }
+  li{ margin:6px 0; }
+  p{ margin:8px 0; }
+
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:0.85rem;
+    margin-top:44px;
+  }
+
+  a.contact-link{
+    color:var(--accent);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <nav>
+      <a href="privacy.html" class="active">🔒 Privacy Policy</a>
+      <a href="terms.html">📄 Terms of Service</a>
+    </nav>
+
+    <h1 class="page-title">🔒 Privacy Policy</h1>
+
+    <p class="meta">🤖 <b>Bot:</b> Zimowy Partner</p>
+    <p class="meta">📅 <b>Effective Date:</b> July 8, 2026</p>
+
+    <blockquote>
+      This Privacy Policy explains what data Zimowy Partner collects from Discord servers, why it's collected, and how it's used to run the server-partnership program.
+    </blockquote>
+
+    <h2>📋 Data We Collect</h2>
+    <ul>
+      <li>👤 <b>User IDs</b> — of members who take part in or manage partnerships</li>
+      <li>🏠 <b>Server (Guild) IDs</b> — of servers using the partnership system</li>
+      <li>💬 <b>Channel IDs</b> — the designated partnership and log channels</li>
+      <li>✉️ <b>Message IDs</b> — of partnership posts, so they can be updated or removed automatically</li>
+      <li>🎭 <b>Role IDs</b> — used to grant or remove partnership-related roles automatically</li>
+      <li>🔗 <b>Invite links</b> — posted in the partnership channel, used to identify the partner server</li>
+      <li>📊 <b>Partnership statistics</b> — number of partnerships, timestamps, and assigned rates</li>
+      <li>🚫 <b>Blacklist entries</b> — server ID, server name, and reason, mirrored from a connected moderation bot</li>
+    </ul>
+    <p>We do <b>not</b> read or store the general content of your messages. Message content is only inspected inside the designated partnership channel, solely to detect invite links and mentioned users — nothing outside that channel is processed.</p>
+
+    <h2>⚙️ How We Use This Data</h2>
+    <ul>
+      <li>🤝 Matching and recording partnerships between servers</li>
+      <li>🏅 Enforcing partnership limits and cooldowns</li>
+      <li>📈 Tracking realizator quotas and automatically managing their roles</li>
+      <li>💰 Calculating compensation rates tied to completed partnerships</li>
+      <li>📬 Sending direct-message reminders and notifications</li>
+      <li>🧾 Logging partnership activity to a private staff channel</li>
+      <li>⛔ Synchronizing the server blacklist to block partnerships with flagged servers</li>
+    </ul>
+
+    <h2>🗄️ Data Storage</h2>
+    <p>All data is stored locally in a database operated by the bot owner (not shared with any third-party data broker). Records are kept for as long as needed for the features above — for example, partnership records are automatically removed when a partnership ends or a member leaves the server.</p>
+
+    <h2>🔗 Data Sharing</h2>
+    <p>Data is never sold. It may only be shared with:</p>
+    <ul>
+      <li>Discord, Inc. — as the platform the bot operates on</li>
+      <li>A connected blacklist bot, limited strictly to the sync fields listed above</li>
+    </ul>
+
+    <h2>👤 Your Rights</h2>
+    <p>You can request access to, correction of, or deletion of your data at any time by contacting the bot operator below. Leaving a server or having the bot removed also stops any further collection for that server.</p>
+
+    <h2>🔐 Security</h2>
+    <p>Reasonable technical measures are used to protect stored data from unauthorized access. No online system can be guaranteed 100% secure.</p>
+
+    <h2>📝 Changes to This Policy</h2>
+    <p>This policy may be updated from time to time. Material changes will be announced through the support server listed below.</p>
+
+    <h2>✉️ Contact</h2>
+    <p><a class="contact-link" href="https://discord.gg/zimowereklamy" target="_blank" rel="noopener">https://discord.gg/zimowereklamy</a></p>
+
+    <footer>© 2026 Zimowy Partner</footer>
+  </div>
+</body>
+</html>
