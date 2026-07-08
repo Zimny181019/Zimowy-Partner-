@@ -1,1 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — ZR Partner</title>
+<style>
+  :root {
+    --bg: #0d0f14;
+    --card: #1a1d24;
+    --card-border: #2a2e38;
+    --accent: #5b9dff;
+    --accent-soft: #5b9dff22;
+    --text: #e6e8ec;
+    --text-dim: #9aa1ac;
+    --text-dimmer: #6b7280;
+    --green: #57c785;
+    --red: #e06c75;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(circle at 50% 0%, #161a22 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 40px 20px 100px;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; }
 
+  .nav {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .nav a:hover { text-decoration: underline; }
+
+  .doc-header { text-align: center; margin-bottom: 36px; }
+  .doc-header .icon { font-size: 42px; }
+  .doc-header h1 {
+    font-size: 32px;
+    margin: 8px 0 18px;
+    background: linear-gradient(90deg, #6fa8ff, #a68fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .meta { font-size: 14px; color: var(--text-dim); margin: 4px 0; }
+  .meta b { color: var(--text); }
+
+  .intro-box {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 16px 20px;
+    border-radius: 6px;
+    margin: 24px 0 40px;
+    color: #cfd6e3;
+    font-size: 15px;
+  }
+
+  section { margin-bottom: 44px; }
+  h2 {
+    font-size: 22px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h3 { font-size: 17px; color: var(--text); margin: 22px 0 8px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 14px;
+  }
+
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--card-border);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+  ul.plain li:last-child { border-bottom: none; }
+  ul.plain .emoji { flex-shrink: 0; }
+
+  .note { font-size: 13.5px; color: var(--text-dimmer); margin-top: 14px; line-height: 1.6; }
+  .badge-yes { color: var(--green); font-weight: 600; }
+  .badge-no { color: var(--red); font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin-top: 8px; }
+  table th, table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--card-border); }
+  table th { color: var(--text-dim); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+
+  footer { text-align: center; color: var(--text-dimmer); font-size: 13px; margin-top: 60px; }
+  a.inline { color: var(--accent); }
+  p.desc { margin: 0; font-size: 14.5px; color: var(--text-dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="nav">
+    <a href="index.html">🔒 Privacy Policy</a>
+    <a href="terms-of-service.html">📄 Terms of Service</a>
+  </div>
+
+  <div class="doc-header">
+    <div class="icon">🔐</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">🤖 <b>Bot:</b> ZR Partner</div>
+    <div class="meta">📅 <b>Effective Date:</b> July 8, 2026</div>
+  </div>
+
+  <div class="intro-box">
+    This Privacy Policy explains what data the bot processes on Discord servers, why it is processed, and how long it is retained.
+  </div>
+
+  <section>
+    <h2>📋 Data We Collect</h2>
+    <div class="card">
+      <ul class="plain">
+        <li><span class="emoji">👤</span> User IDs (server owners/representatives, realizators, partners)</li>
+        <li><span class="emoji">🏠</span> Server (Guild) IDs, including IDs of partner servers referenced in invite links</li>
+        <li><span class="emoji">💬</span> Channel IDs used for the partnership system and the log channel</li>
+        <li><span class="emoji">🎭</span> Role IDs (realizator role, partner role, leave/"urlop" role, permission checks)</li>
+        <li><span class="emoji">🔗</span> Discord invite links submitted in the designated partnership channel</li>
+        <li><span class="emoji">🤝</span> Partnership records: which realizator handled which partnership, the partner's user ID, the associated invite link, the date, and the reward rate assigned to that partnership</li>
+        <li><span class="emoji">⏱️</span> Norm/quota tracking data for realizators: cycle start time, whether a reminder was already sent, and the count of partnerships completed within the current cycle</li>
+        <li><span class="emoji">🚫</span> A local mirror of a blacklist (blocked server IDs, server names, and block reasons), synced from a separate, independently operated blacklist bot</li>
+        <li><span class="emoji">🎁</span> Completed-partnership counters used to determine when a realizator has reached the threshold for a reward payout</li>
+      </ul>
+      <div class="note">
+        The bot does <b>not</b> use the <b>Presence Intent</b> (online/offline status of other users) — this is not required by, and is not used by, any bot feature.
+      </div>
+    </div>
+
+    <h3>Message Content — What Exactly Is Analyzed</h3>
+    <div class="card">
+      <p class="desc" style="margin-bottom:10px;">
+        The bot requires the <b>Message Content Intent</b> because the partnership system needs to detect Discord invite links posted in the designated channel. The bot only extracts the characteristics listed below — it does <b>not</b> permanently store the full text of messages:
+      </p>
+      <ul class="plain">
+        <li><span class="emoji">🔗</span> Presence and value of a Discord invite link (discord.gg / discord.com/invite) — used to register or verify a partnership</li>
+        <li><span class="emoji">🙋</span> Any user mentioned in the message — used to identify the partner associated with the invite</li>
+      </ul>
+      <div class="note">The invite link itself is retained as part of the partnership record (see above) so it can be shown to server staff and, if a partnership ends, removed. It is not otherwise stored or reproduced elsewhere.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>⚙️ Why We Process This Data</h2>
+    <div class="card">
+      <table>
+        <tr><th>Purpose</th><th>Data Used</th></tr>
+        <tr><td>Registering and tracking partnerships between servers</td><td>User ID, Guild ID, Channel ID, invite link, timestamp</td></tr>
+        <tr><td>Permission verification for commands</td><td>User ID, Role ID</td></tr>
+        <tr><td>Enforcing the realizator activity norm (quota) with automated reminders and role removal</td><td>User ID, Role ID, cycle timestamps, partnership counts</td></tr>
+        <tr><td>Rewarding realizators for completed partnerships: once a set threshold is reached, the realizator can open a payout ticket, and staff manually credit the corresponding virtual points via the ZR Points bot, instead of a monetary payment</td><td>User ID, completed-partnership count, reward rate</td></tr>
+        <tr><td>Blocking partnerships with blacklisted servers</td><td>Guild ID, blacklist mirror data</td></tr>
+        <tr><td>Ending/cleaning up partnerships automatically when a partner leaves a server</td><td>User ID, partnership records, invite link</td></tr>
+        <tr><td>Moderation / staff oversight</td><td>Log channel entries (blocked attempts, completed or broken partnerships)</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>🗄️ Data Storage</h2>
+    <div class="card">
+      <p class="desc">
+        Data is stored locally on the bot's hosting server (SQLite databases) and used exclusively to support the features described in this Policy. Partnership records are automatically removed once a partnership ends (e.g. when a partner leaves the server). The blacklist mirror is fully replaced every time the source blacklist bot broadcasts an update, so it never accumulates stale entries.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🤝 Data Sharing</h2>
+    <div class="card">
+      <ul class="plain">
+        <li><span class="emoji"><span class="badge-no">✗</span></span> Data is never sold or shared with third parties</li>
+        <li><span class="emoji"><span class="badge-no">✗</span></span> Data is never used for advertising purposes outside the server</li>
+        <li><span class="emoji"><span class="badge-no">✗</span></span> ZR Partner does not automatically communicate or exchange data with the ZR Points bot — reward points are credited manually by server staff, based on the completed-partnership count shown by this bot, after the realizator opens a payout ticket</li>
+        <li><span class="emoji"><span class="badge-yes">✓</span></span> Blocked-server data is received from a separate, independently operated blacklist bot, solely to enforce partnership restrictions</li>
+        <li><span class="emoji"><span class="badge-yes">✓</span></span> Data may be visible to server administrators as part of standard moderation features (e.g. the partnership log channel)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>👶 Children</h2>
+    <div class="card">
+      <p class="desc">
+        The bot is intended to be used in accordance with <a class="inline" href="https://discord.com/terms" target="_blank" rel="noopener">Discord's Terms of Service</a>, which require users to be at least 13 years old (or the minimum age required in their country). We do not knowingly collect data from users below this age.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>✋ Your Rights</h2>
+    <div class="card">
+      <p class="desc">
+        You may request deletion of your data (partnership records, norm/cycle history) at any time by contacting server staff through the ticket system. You may also stop using the bot at any time — your data will no longer be actively collected.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>✏️ Changes to This Policy</h2>
+    <div class="card">
+      <p class="desc">
+        We may update this Privacy Policy from time to time. Significant changes will be announced on the server. Continued use of the bot after changes take effect constitutes acceptance of those changes.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>✉️ Contact</h2>
+    <div class="card">
+      <p class="desc">
+        For any questions regarding privacy or data handling, please contact server staff through the ticket system.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    ZR Partner — Discord Bot &nbsp;•&nbsp; Last updated: July 8, 2026
+  </footer>
+
+</div>
+</body>
+</html>
